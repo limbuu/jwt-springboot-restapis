@@ -34,7 +34,7 @@ public class TaskController {
 	public List<Task> getTasks() {
 		return taskRepository.findAll();
 	}
-
+	
 	@PutMapping("/{id}")
 	public void editTask(@PathVariable long id, @RequestBody Task task) {
 		Task existingTask = taskRepository.findOne(id);
