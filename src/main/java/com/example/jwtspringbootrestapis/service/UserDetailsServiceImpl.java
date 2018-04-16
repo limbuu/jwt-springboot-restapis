@@ -1,4 +1,4 @@
-package com.example.jwtspringbootrestapis.jwtsecurity;
+package com.example.jwtspringbootrestapis.service;
 
 import java.util.ArrayList;
 
